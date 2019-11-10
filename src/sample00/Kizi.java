@@ -23,6 +23,9 @@ public class Kizi extends HttpServlet {
 		
 		out.println("<body>");
 		out.println("<H1>‚æ‚¤‚±‚»I</H1>");
+		out.println("<p>");
+		out.println("<input type=\"button\" value=\"ŒŸõ‹@”\\" onclick=\"history.back()\">");
+		out.println("</p>");
 		out.println("</body>");
 		out.println("</html>");
 	}

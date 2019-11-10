@@ -129,7 +129,6 @@ public class LoginCheck1 extends HttpServlet {
 			
 			while(rset.next()){
 				resultPassword = rset.getString(1);
-				System.out.println(resultPassword);
 			}
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
