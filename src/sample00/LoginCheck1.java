@@ -52,7 +52,7 @@ public class LoginCheck1 extends HttpServlet {
 		
 		boolean isCorrectPassword = false;
 		
-		//必要性は不明だが記載
+		//jdbc読み込み
 		try {
 			Class.forName("org.postgresql.Driver");
 		} catch (ClassNotFoundException e1) {
