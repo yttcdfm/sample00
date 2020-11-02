@@ -28,7 +28,7 @@ public class TcpServer {
 			
 			bufferedReader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 			output = new DataOutputStream(socket.getOutputStream());
-			String moji = bufferedReader.readLine();
+			String moji = bufferedReader.readLine();	//byteæ‚èo‚µ‚½‚¢‚Æ‚«‚ÍDataInputStream
 			
 			System.out.println("@“ü—Í:" + moji);
 			output.writeChars(moji + 2);
