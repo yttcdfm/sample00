@@ -19,14 +19,9 @@ public class TcpServer {
 		this.port = port;
 	}
 	
-	public void exec(){
+	public void exec(){		
 		try {
 			serverSocket = new ServerSocket(port);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		
-		try {
 			System.out.println("TCPサーバ接続待ち");
 			Socket socket = serverSocket.accept();
 			System.out.println("TCPサーバ接続中");
