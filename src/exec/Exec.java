@@ -11,5 +11,6 @@ public class Exec {
 		System.out.println("hogehoge1");
 		System.out.println("hogehoge2");
 		System.out.println("hogehoge3");
+		System.out.println("fuga69");
 	}
 }
