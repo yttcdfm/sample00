@@ -8,12 +8,6 @@ public class Exec {
 	public static void main(String[] args) {
 		ThreadTest threadTest = new ThreadTest();
 		threadTest.start();
-		System.out.println("hogehoge1");
-		System.out.println("hogehoge2");
-		System.out.println("hogehoge3");
-		System.out.println("fuga1");
-		System.out.println("fuga2");
-		System.out.println("fuga3");
-		System.out.println("fuga69");
+
 	}
 }
