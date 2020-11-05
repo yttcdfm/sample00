@@ -11,5 +11,6 @@ public class Exec {
 		System.out.println("fuga69");
 		System.out.println("hgeoiajiopajiopa");
 		System.out.println("aiueo‚±‚Á‚¿‚ğÌ—p‚µ‚½‚¢‚Å‚·I");
+		System.out.println("‚ä‚ä‚¤‚½");
 	}
 }
