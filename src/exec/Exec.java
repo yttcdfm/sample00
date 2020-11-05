@@ -10,5 +10,6 @@ public class Exec {
 		threadTest.start();
 		System.out.println("fuga69");
 		System.out.println("hgeoiajiopajiopa");
+		System.out.println("ghoid;jaileroaji@akji@kjaif;jarkl;jga;l");
 	}
 }
