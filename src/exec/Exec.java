@@ -9,6 +9,6 @@ public class Exec {
 		ThreadTest threadTest = new ThreadTest();
 		threadTest.start();
 
-		System.outprintln("fuga69");
+		System.out.println("fuga69");
 	}
 }
